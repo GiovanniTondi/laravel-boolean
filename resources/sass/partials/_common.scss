@@ -1,0 +1,26 @@
+main {
+
+    margin: 80px 0;
+
+    padding: $padding_default;
+
+    h2 {
+        margin: 20px 0;
+        font-size: 48px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+        .card {
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+}
